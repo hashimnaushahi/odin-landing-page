@@ -31,11 +31,11 @@ a {
 }
 
 .inner-wide {
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .inner-small {
-  max-width: 700px;
+  max-width: 900px;
 }
 
 .flex {
@@ -49,8 +49,28 @@ a {
   padding: 1.5em 0;
 }
 
+.header,
+.hero {
+  font-size: 1.8rem;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.logo,
+ .cta-heading {
+  font-size: ;2.4rem;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
 .nav-list {
   list-style: none;
+}
+
+.hero-heading {
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: #f9faf8;
 }
 
 .hero-info,
@@ -58,10 +78,57 @@ a {
   flex: 1;
 }
 
+.button {
+  display: inline-block;
+  padding: 1.2rem 3.6rem;
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.information-heading {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: #1f2937;
+}
+
 .information-inner {
   flex-direction: column;
 }
 
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 3.6rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .quote-author {
+  font-size: 2rem;
+  font-weight: 700;
   text-align: right;
+}
+
+.cta {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+.cta-inner {
+  padding: 4.8rem 9.6rem;
+  border-radius: 12px;
+  background-color: #3882f6;
+}
+
+.cta-button {
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
 }
